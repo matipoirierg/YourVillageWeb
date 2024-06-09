@@ -1,0 +1,257 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif!important;
+}
+
+body {
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
+	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
+				url("../img/minecraft.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	position: relative;
+}
+
+#return {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#button {
+	background-color: #B40ADE;
+	-webkit-box-shadow: 0px 4px 0px 0px #8E00B1;
+	-moz-box-shadow: 0px 4px 0px 0px #8E00B1;
+	box-shadow: 0px 4px 0px 0px #8E00B1;
+	color: #ffffff;
+	border: none;
+	text-transform: uppercase;
+	padding: 14px 60px 14px 60px;
+	font-weight: 700;
+	border-radius: 12px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+}
+
+#return img {
+	height: 18px;
+	padding-left: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 85%;
+	margin: 0 auto;
+	text-align: right;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	opacity: 1;
+	position: relative;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+	background-color: #8E00B1;
+	border-radius: 12px;
+	padding-bottom: 32px;
+	padding-top: 32px;
+	margin-top: 20px;
+}
+
+.staff-rank {
+	width: 100%;
+	background-color: #0081ff;
+	-webkit-box-shadow: 0px 6px 0px 0px #0072e0;
+	-moz-box-shadow: 0px 6px 0px 0px #0072e0;
+	box-shadow: 0px 6px 0px 0px #0072e0;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 23px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 3px;
+}
+
+.staff-rank:first-child {
+	margin-top: 0px;
+}
+
+#content-container {
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.staff-member {
+	width: 170px;
+	margin-top: 23px;
+	background-color: #00cbff;
+	text-align: center;
+	height: 180px;
+	padding-top: 18px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 18px;
+	-webkit-box-shadow: 0px 6px 0px 0px #00b3e0;
+	-moz-box-shadow: 0px 6px 0px 0px #00b3e0;
+	box-shadow: 0px 6px 0px 0px #00b3e0;
+}
+
+.ml-0 {
+	margin-left: 0px
+}
+
+.name {
+	color: #fff600;
+	font-weight: 400;
+	margin-top: 8px;
+}
+
+.rank {
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+.staff-member img {
+	height: 72px;
+	width: 72px;
+	margin-top: 6px;
+	border-radius: 5px;
+}
+
+@media (max-width:453px) {
+	.staff-member {
+		margin-left: 0px!important;
+	}
+}
+
+.vote-page h2 {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#top-voters {
+	width: 73%;
+}
+
+#vote-links {
+	width: 25%;
+}
+
+.border-bottom {
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 2px;
+}
+
+.content-section {
+	background-color: #D219FF;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 6px 0px 0px #D219FF;
+	-moz-box-shadow: 0px 6px 0px 0px #D219FF;
+	box-shadow: 0px 6px 0px 0px #D219FF;
+	padding: 30px 40px 30px 40px;
+}
+
+#vote-links-container {
+	margin-top: 3rem;
+}
+
+#top-voters-container {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.vote-link {
+	background-color: #F73EFF;
+	color: #ffffff;
+	text-align: center;
+	padding: 1rem;
+	width: 100%;
+	border-radius: 4px;
+	margin-top: 25px;
+	-webkit-box-shadow: 0px 6px 0px 0px #D93EFF;
+	-moz-box-shadow: 0px 6px 0px 0px #D93EFF;
+	box-shadow: 0px 6px 0px 0px #D93EFF;
+}
+
+.voter {
+	width: 30%;
+	min-width: 150px;
+	margin-top: 2rem;
+}
+
+.ml-3 {
+	margin-left: 2e-10%;
+}
+
+.vote-link h6 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+
+.vote-link span {
+	font-size: 16px;
+	color: #000;
+}
+
+@media (max-width:1300px) {
+	#top-voters {
+		width: 65%;
+	}
+	#vote-links {
+		width: 32%;
+	}
+}
+
+@media (max-width:1106px) {
+	.content-section {
+		padding: 10px 20px 10px 20px;
+	}
+}
+
+@media (min-width:996px) {
+	.vote-page {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width:995px) {
+	#vote-links {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+	#top-voters-container {
+		justify-content: space-around;
+	}
+	#top-voters {
+		width: 100%;
+		margin-top: 2rem;
+		padding-bottom: 40px;
+	}
+	.content-section h2 {
+		font-size: 20px;
+	}
+}

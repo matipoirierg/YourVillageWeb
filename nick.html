@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>RGB Gradient Minecraft Nick Generator</title>
+	<meta name="description" content="Genera un apodo degradado único y sorprendente para destacar en los servidores de Minecraft más populares.">
+    <meta name="keywords" content="Generador de apodos RGB, Generador degradado de Minecraft, Generador de apodos degradados, Apodo degradado de Minecraft, Generador de apodos degradados de Minecraft">
+    <link type="text/css" rel="stylesheet" href="grad-x.css" />
+    <link type="text/css" rel="stylesheet" href="colorpicker/css/colorpicker.css" />
+    <link type="text/css" rel="stylesheet" href="index.css?v=1.1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="colorpicker/js/colorpicker.min.js"></script>
+    <script src="js/dom-drag.js"></script>
+    <script src="js/grad-x.min.js?v=1.2"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Nick RGB</h1>
+        <form>
+            <input type="text" class="input-text" id="uid-input" value="Escribe tu nick aquí" maxlength="16">
+        </form>
+
+        <canvas width="473" height="2" id="gradient-reference"></canvas>
+        <div id="gradX"></div>
+        <div id="preview"></div>
+
+        <form>
+            <textarea cols="80" rows="6" name="rgb-code" id="rgb-code"></textarea>
+            <button id="copy-to-clipboard" class="gradx_btn">Click para copiar</button>
+            <div id="copy-clip-notify">
+                <div class="wrap">¡Listo!</div>
+            </div>
+        </form>
+        <div id="attribution">
+            <p class="text-small">¡El mejor servidor survival! play.eventyr.lat</p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "MinecraftFont";
+    src: url("fonts/Minecraft-Regular.ttf.eot");
+    src: url("fonts/Minecraft-Regular.ttf.woff") format("woff"),
+    url("https://simplexmc.com/nick-colors/fonts/Minecraft-Regular.ttf.") format("svg");
+}
+body {
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: #1e1e20;
+    color: #75757c;
+}
+.text-small {
+    font-size: 10px;
+}
+.container {
+    width: 473px;
+    margin: 32px auto;
+}
+#gradX {
+    height: 200px;
+}
+#gradx_show_code {
+    display: none;
+}
+.gradx_container {
+    padding: 16px;
+    border: none;
+}
+.gradx {
+    background: #333;
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: auto;
+}
+.gradx_slectboxes {
+    display: none;
+}
+.gradx_panel {
+    width: auto;
+    border: none;
+    margin-left: 4px;
+}
+.gradx_start_sliders {
+    width: auto;
+    margin-left: 0;
+    background: #ddd;
+    box-shadow: 1px 1px 3px rgba(50, 50, 50, .3) inset;
+}
+.gradx_slider:after {
+    z-index: 1;
+    left: 3px;
+    width: 4px;
+    height: 54px;
+    border: none;
+    background: rgb(20,20,20,.3);
+}
+.gradx_btn {
+    background: #fff;
+    padding: 8px;
+}
+.gradx_btn:hover {
+    background: #ddd;
+}
+.gradx_btn > .icon-add {
+    left: 0;
+    top: 0;
+}
+#gradx_slider_controls {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+#gradx_add_slider {
+    display: block;
+    margin: 0 auto;
+}
+#gradx_reset {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.gradx_add_slider {
+    width: 16px;
+}
+.sp-container {
+    border: none;
+}
+.input-text {
+    font-family: MinecraftFont;
+    font-size: 20px;
+
+    width: 100%;
+    min-height: 42px;
+    padding: 0 16px;
+
+    color: #fff;
+    background: #333;
+    border: 1px solid #666;
+}
+#gradient-reference {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+}
+#preview {
+    font-family: MinecraftFont;
+    font-size: 20px;
+
+    padding: 0 16px;
+}
+#rgb-code {
+    width: 473px;
+    padding: 16px;
+    margin-top: 16px;
+    color: #fff;
+    background: #333;
+}
+#copy-to-clipboard {
+    margin-top: 16px;
+}
+#copy-clip-notify {
+    display: inline-block;
+    padding: 14px;
+    margin-top: 16px;
+    vertical-align: middle;
+    height: 9px;
+    line-height: 12px;
+}
+#copy-clip-notify .wrap {
+    display: none;
+}
+.sp-palette {
+    max-width: 174px;
+}
+.sp-palette-container {
+    float: none;
+}
+.sp-palette-button-container {
+    display: none;
+}
