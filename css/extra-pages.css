@@ -23,10 +23,10 @@ body {
 }
 
 #button {
-	background-color: #B40ADE;
-	-webkit-box-shadow: 0px 4px 0px 0px #8E00B1;
-	-moz-box-shadow: 0px 4px 0px 0px #8E00B1;
-	box-shadow: 0px 4px 0px 0px #8E00B1;
+	background-color: #E78A0C;
+	-webkit-box-shadow: 0px 4px 0px 0px #E78A0C;
+	-moz-box-shadow: 0px 4px 0px 0px #E78A0C;
+	box-shadow: 0px 4px 0px 0px #E78A0C;
 	color: #ffffff;
 	border: none;
 	text-transform: uppercase;
@@ -60,7 +60,7 @@ a {
 #content {
 	height: 100%;
 	width: 100%;
-	background-color: #8E00B1;
+	background-color: #E78A0C;
 	border-radius: 12px;
 	padding-bottom: 32px;
 	padding-top: 32px;
@@ -69,10 +69,10 @@ a {
 
 .staff-rank {
 	width: 100%;
-	background-color: #0081ff;
-	-webkit-box-shadow: 0px 6px 0px 0px #0072e0;
-	-moz-box-shadow: 0px 6px 0px 0px #0072e0;
-	box-shadow: 0px 6px 0px 0px #0072e0;
+	background-color: #E78A0C;
+	-webkit-box-shadow: 0px 6px 0px 0px #F6E21E;
+	-moz-box-shadow: 0px 6px 0px 0px #F6E21E;
+	box-shadow: 0px 6px 0px 0px #F6E21E;
 	color: #fff;
 	margin: 0 auto;
 	margin-top: 23px;
