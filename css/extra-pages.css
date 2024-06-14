@@ -159,11 +159,11 @@ a {
 }
 
 .content-section {
-	background-color: #D219FF;
+	background-color: #E78A0C;
 	border-radius: 4px;
-	-webkit-box-shadow: 0px 6px 0px 0px #D219FF;
-	-moz-box-shadow: 0px 6px 0px 0px #D219FF;
-	box-shadow: 0px 6px 0px 0px #D219FF;
+	-webkit-box-shadow: 0px 6px 0px 0px #F6E21E;
+	-moz-box-shadow: 0px 6px 0px 0px #F6E21E;
+	box-shadow: 0px 6px 0px 0px #F6E21E;
 	padding: 30px 40px 30px 40px;
 }
 
@@ -183,7 +183,7 @@ a {
 }
 
 .vote-link {
-	background-color: #F73EFF;
+	background-color: #E78A0C;
 	color: #ffffff;
 	text-align: center;
 	padding: 1rem;
